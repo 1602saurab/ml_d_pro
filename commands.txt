@@ -1,0 +1,27 @@
+uv init kltrp
+
+uv venv 
+
+.venv\Scripts\activate 
+
+
+create requirements.txt 
+
+uv add -r requirements.txt 
+
+create .env file where we will store our secret credentials 
+
+create app.py file ---> 
+function(text=query) ---> LLM(gemini)+Api key ---> response return textual format 
+
+ui --> streamlit 
+
+
+streamlit run app.py 
+
+
+
+Docker ---> It will mitigate the issue of version conflicity . 
+Application ---> local system 10 GB ---> focker image ---> base image --> 2-3 GB 
+
+EC2 ---> Elastic Compute Cloud ---> rental computer 
